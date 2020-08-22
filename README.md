@@ -15,3 +15,12 @@ The following steps are taken in this project:
     7. Look at natural groupings: which counties belong to the same cluster 
 
 I am using Amazon SageMaker for this project. 
+
+## Contents
+The files in this repository contain the following information:
+
+    1. Population_Segmentation.ipynb: Project Notebook    
+    2. Population_Segmentation.html: A html file containing the project notebook and its outputs.
+    3. utils.py: A function which return the inertia and silhouette scores (measures of K-means algorithm)
+    4. Assumptions of K-means Test.ipynb: In this notebook, I tested the assumption of K-means. Also, I use a Gaussian Mixture Model and DBSCAN, which are other clustering algorithm which could potentially be used instead of K-means in the main project.
+    5. TestNotebook.ipynb: A Test Notebook which I used to write the utils.py file
