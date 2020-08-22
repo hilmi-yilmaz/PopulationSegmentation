@@ -25,5 +25,5 @@ The files in this repository contain the following information:
     4. Assumptions of K-means Test.ipynb: In this notebook, I tested the assumption of K-means. Also, I use a Gaussian Mixture Model and DBSCAN, which are other clustering algorithm which could potentially be used instead of K-means in the main project.
     5. TestNotebook.ipynb: A Test Notebook which I used to write the utils.py file
     
-## Improvements to project
+## Potential Improvements
 Instead of using K-means, a Gaussian Mixture Model could be used. This is like a generalization of the K-means algorithm which also takes into account the variance of the data. 
